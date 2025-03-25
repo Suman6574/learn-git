@@ -10,7 +10,7 @@ public class sumofdigit {
         return sod(n/10)+(n%10);
     }
     public static void main(String[] args) {
-        int n=1234;
+        int n=12345;
         System.out.println(sod(n));
         
     }
